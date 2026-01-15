@@ -56,8 +56,8 @@ REGRAS DE RESPOSTA:
 """
 
 with st.sidebar:    
-    st.title("OBS AI Document 🤖 CODER")
-    st.markdown("Uma assistente de IA focada em informar!")
+    st.title("Estudante AI 🤖")
+    st.markdown("Uma assistente de IA focada em informar estudantes!")
 
     groq_API_Key = st.text_input(
         "Insira sua API Key Groq",
