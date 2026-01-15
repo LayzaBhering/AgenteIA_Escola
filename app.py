@@ -4,7 +4,7 @@ from groq import Groq
 
 st.set_page_config(
     page_title="OBS AI Document",
-    page_icon="🤖",
+    page_icon="📚",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -56,7 +56,7 @@ REGRAS DE RESPOSTA:
 """
 
 with st.sidebar:    
-    st.title("Estudante AI 🤖")
+    st.title("Estudante AI 📚")
     st.markdown("Uma assistente de IA focada em informar estudantes!")
 
     groq_API_Key = st.text_input(
